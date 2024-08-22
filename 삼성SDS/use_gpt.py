@@ -6,7 +6,7 @@ from tkinter import filedialog
 MODEL: str = 'gpt-4o'
 client: OpenAI = OpenAI(api_key=os.getenv('OPENAI_API_KEY', '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'))
 
-
+# check
 
 # 파일 탐색기를 사용하여 이미지 파일을 선택하는 함수
 def select_image_file():
